@@ -1,1 +1,1 @@
-![Snake animation](https://github.com/bayujo/bayujo/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake Animation](https://github.com/bayujo/bayujo/raw/output/github-snake.svg)
