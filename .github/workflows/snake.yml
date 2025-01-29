@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository  # Fix: Ensure the workflow runs in a git repo
+        uses: actions/checkout@v4
+
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -24,7 +27,7 @@ jobs:
           name: snake-artifacts
           path: dist
 
-      - name: Push to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: output  # Deploy to the 'output' branch
