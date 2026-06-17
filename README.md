@@ -104,10 +104,16 @@ An autonomous, multi-step **tool-calling agent** that answers complex domain que
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bayujo&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0d1117&title_color=7b2ff7&icon_color=7b2ff7" alt="stats" />
-<img height="165" src="https://streak-stats.demolab.com/?user=bayujo&theme=react&hide_border=true&background=0D1117&ring=7B2FF7&fire=7B2FF7&currStreakLabel=7B2FF7&v=2" alt="streak" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=bayujo&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0d1117&title_color=7b2ff7&icon_color=7b2ff7" alt="stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayujo&layout=compact&langs_count=10&hide=html&theme=react&hide_border=true&bg_color=0D1117&title_color=7b2ff7" alt="top-langs" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayujo&layout=compact&langs_count=10&hide=html&theme=react&hide_border=true&bg_color=0D1117&title_color=7b2ff7" alt="top-langs" />
+</div>
+
+<!-- Reliable cached cards — regenerated daily by .github/workflows/profile-summary-cards.yml and committed to the repo, so they never hit an external rate-limit or camo proxy timeout (the streak widget's failure mode). -->
+<div align="center">
+
+<img height="185" src="https://raw.githubusercontent.com/bayujo/bayujo/main/profile-summary-card-output/react/2-most-commit-language.svg" alt="most used languages" />
+<img height="185" src="https://raw.githubusercontent.com/bayujo/bayujo/main/profile-summary-card-output/react/4-productive-time.svg" alt="productive time of day" />
 
 </div>
 
