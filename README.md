@@ -102,10 +102,10 @@ An autonomous, multi-step **tool-calling agent** that answers complex domain que
 <!-- ========================= GITHUB STATS ========================= -->
 ## 📊 GitHub Stats
 
+<!-- Generated daily by .github/workflows/metrics.yml (lowlighter/metrics) using a PAT, so contribution/commit counts INCLUDE private repos. Committed to the repo → served static, reliable. -->
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bayujo&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0d1117&title_color=7b2ff7&icon_color=7b2ff7" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayujo&layout=compact&langs_count=10&hide=html&theme=react&hide_border=true&bg_color=0D1117&title_color=7b2ff7" alt="top-langs" />
+<img width="78%" src="https://raw.githubusercontent.com/bayujo/bayujo/main/github-metrics.svg" alt="GitHub metrics — contributions including private repositories" />
 
 </div>
 
