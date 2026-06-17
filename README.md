@@ -104,16 +104,10 @@ An autonomous, multi-step **tool-calling agent** that answers complex domain que
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bayujo&show_icons=true&count_private=true&include_all_commits=true&theme=react&hide_border=true&bg_color=0d1117&title_color=7b2ff7&icon_color=7b2ff7" alt="stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=bayujo&theme=react&hide_border=true&background=0D1117&ring=7B2FF7&fire=7B2FF7&currStreakLabel=7B2FF7" alt="streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=bayujo&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0d1117&title_color=7b2ff7&icon_color=7b2ff7" alt="stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=bayujo&theme=react&hide_border=true&background=0D1117&ring=7B2FF7&fire=7B2FF7&currStreakLabel=7B2FF7" alt="streak" />
 
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayujo&layout=compact&langs_count=10&hide=html&theme=react&hide_border=true&bg_color=0D1117&title_color=7b2ff7" alt="top-langs" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=bayujo&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
