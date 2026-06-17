@@ -21,14 +21,27 @@ jobs:
           user: bayujo
           filename: github-metrics.svg
           template: classic
-          base: "header, activity, community, repositories, metadata"
+          # header only = compact identity + contribution count (incl private via PAT).
+          # Dropped activity/community/repositories — those event/repo lists were the
+          # "texty / repeated" part. Everything below is graphical.
+          base: "header"
           config_timezone: Asia/Jakarta
 
-          # Full-year contribution calendar — counts private commits with the PAT.
+          # Full-year 3D contribution calendar — counts private commits with the PAT.
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Language breakdown
+          # Language donut — indepth analyses private repos too (PAT has repo scope),
+          # so percentages reflect real (private-heavy) work, not just public.
           plugin_languages: yes
-          plugin_languages_limit: 8
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
           plugin_languages_sections: most-used
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+
+          # Coding-habit charts (visual): commits by time-of-day + weekday.
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_charts: yes
+          plugin_habits_facts: no
