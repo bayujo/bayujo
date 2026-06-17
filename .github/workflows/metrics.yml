@@ -1,0 +1,34 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:        # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics (private contributions included via PAT)
+        uses: lowlighter/metrics@latest
+        with:
+          # PAT you create — repo secret. Scopes: classic PAT with `repo` + `read:user`.
+          # The user's own token is what lets contribution counts include PRIVATE repos.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: bayujo
+          filename: github-metrics.svg
+          template: classic
+          base: "header, activity, community, repositories, metadata"
+          config_timezone: Asia/Jakarta
+
+          # Full-year contribution calendar — counts private commits with the PAT.
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Language breakdown
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
