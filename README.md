@@ -109,14 +109,6 @@ An autonomous, multi-step **tool-calling agent** that answers complex domain que
 
 </div>
 
-<!-- Reliable cached cards — regenerated daily by .github/workflows/profile-summary-cards.yml and committed to the repo, so they never hit an external rate-limit or camo proxy timeout (the streak widget's failure mode). -->
-<div align="center">
-
-<img height="185" src="https://raw.githubusercontent.com/bayujo/bayujo/main/profile-summary-card-output/react/2-most-commit-language.svg" alt="most used languages" />
-<img height="185" src="https://raw.githubusercontent.com/bayujo/bayujo/main/profile-summary-card-output/react/4-productive-time.svg" alt="productive time of day" />
-
-</div>
-
 ---
 
 <!-- ========================= ACTIVITY GRAPH ========================= -->
